@@ -4,22 +4,16 @@ import java.util.List;
 
 public class Palindrome {
     public static boolean isPalindrome (String text){
-        char[] characters = text.toLowerCase().replace(" ","").toCharArray();
-        char [] reverseChar = new char [characters.length];
-        int j =0;
-        for (int i = characters.length-1; i>=0;i--){
-            reverseChar[j]=characters[i];
-            j++;
-        }
-
-       for (int i = 0; i<characters.length; i++){
-           if (!(reverseChar[i]==characters[i]))
+       int length = text.length();
+       for (int i = 0;i<(length/2);i++){
+           if(text.charAt(i)!=text.charAt(length-i-1)){
                return false;
+           }
        }
-        return true;
+       return true;
 
     }
     public static void main(String[] args) {
-        System.out.println(isPalindrome("sanas "));
+        System.out.println(isPalindrome("amma"));
     }
 }
