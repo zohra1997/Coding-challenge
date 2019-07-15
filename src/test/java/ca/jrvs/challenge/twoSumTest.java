@@ -13,4 +13,4 @@ public class twoSumTest {
         int [] actual = function(new int[] {2, 7, 5, 11}, 9);
         assertArrayEquals(expected,actual);
     }
-};
+}
