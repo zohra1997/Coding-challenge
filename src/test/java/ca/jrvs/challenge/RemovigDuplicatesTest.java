@@ -10,7 +10,6 @@ public class RemovigDuplicatesTest {
     public void functionApi() {
         Integer[] array = new Integer [] {1,2,3,4,4,4,4,5,5,5,6,6,7,7,8,8};
         assertEquals(RemovigDuplicates.functionApi(array),8);
-
     }
 
     @Test
