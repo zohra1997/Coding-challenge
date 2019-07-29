@@ -1,5 +1,6 @@
 package ca.jrvs.challenge;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -12,11 +13,14 @@ public class RemovigDuplicates {
     }
     public static  int function (int [] nums ){
         int count = 1;
+        ArrayList<Integer> uniques = new ArrayList<>();
       for (int i=0;i<nums.length-1;i++){
           if (nums[i]!=nums[i+1]){
+              uniques.add( nums[i]);
               ++count;
           }
       }
+        System.out.println(uniques);
       return count;
     }
 
