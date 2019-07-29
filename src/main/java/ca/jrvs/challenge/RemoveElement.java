@@ -1,8 +1,15 @@
 package ca.jrvs.challenge;
 
-import java.util.Arrays;
+
 
 public class RemoveElement {
+    /**
+     * iterate through an array and check for unique characters
+     * remove duplicate characters
+     * @param nums
+     * @param val
+     * @return lenght of array
+     */
     public static int removeElement(int[] nums, int val) {
         int j=0;
         for (int i = 0;i<nums.length;i++){

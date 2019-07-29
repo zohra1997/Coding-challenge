@@ -5,6 +5,10 @@ import java.util.Stack;
 import static java.lang.System.clearProperty;
 import static java.lang.System.exit;
 
+/**
+ * Binary search tree implementation
+ */
+
 public class MyBinarySearchTree {
     private static class Node {
         private int value;

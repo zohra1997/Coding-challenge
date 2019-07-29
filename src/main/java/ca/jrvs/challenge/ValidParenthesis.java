@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Stack;
 
 public class ValidParenthesis {
+    /**
+     *
+     * @param s
+     * @return true if all parenthesis are closed in order
+     */
     public static boolean isValid(String s) {
         HashMap<Character, Character> myMap = new HashMap<>();
         myMap.put('(',')');

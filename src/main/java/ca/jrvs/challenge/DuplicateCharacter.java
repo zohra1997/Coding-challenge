@@ -8,6 +8,13 @@ public class DuplicateCharacter {
     public static void main(String[] args) {
         System.out.println(duplicate("hello dear hope you are good!!"));
     }
+
+    /**
+     * construct a hash map
+     * check for dulicate characters
+     * @param text
+     * @return array of duplicate characters
+     */
     public static List<Character> duplicate (String text){
         HashMap<Character,Integer> map = new HashMap<>();
         char [] charArray = text.toCharArray();

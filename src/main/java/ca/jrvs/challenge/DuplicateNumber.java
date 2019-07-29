@@ -3,6 +3,11 @@ package ca.jrvs.challenge;
 import static java.util.Arrays.sort;
 
 public class DuplicateNumber {
+    /**
+     * chcek for duplicate numbers and return the first one
+     * @param array
+     * @return first duplicate integer from an array
+     */
     public static int duplicate(int [] array){
        sort(array);
        for (int i = 0;i<array.length-1;i++){

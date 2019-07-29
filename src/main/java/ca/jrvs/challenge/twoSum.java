@@ -5,8 +5,13 @@ import java.util.HashMap;
 import java.util.Hashtable;
 
 public class twoSum {
+    /**
+     *
+     * @param nums
+     * @param target
+     * @return an array of the indices of the numbers whose sum = target
+     */
     public static int[] function(int[] nums, int target) {
-
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         int[] res = new int[2];
         for (int i = 0; i < nums.length; ++i) {

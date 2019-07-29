@@ -2,6 +2,11 @@ package ca.jrvs.challenge;
 
 public class MaxMinValues {
 
+    /**
+     * iterate through the array and return the min and max values
+     * @param int array
+     * @return Min and max of an int array
+     */
     public static String function (int [] nums){
         int min = nums [0];
         int max = nums[0];

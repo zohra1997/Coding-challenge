@@ -1,5 +1,8 @@
 package ca.jrvs.challenge;
 
+/**
+ * LinkedList implementation
+ */
 public class MyLinkedLists {
      static class Node {
         public int val;

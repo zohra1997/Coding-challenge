@@ -4,8 +4,13 @@ import java.util.Arrays;
 
 import static java.util.Arrays.sort;
 
-
 public class MergeSortedArrays {
+    /**
+     * Merges two int arrays
+     * one of the array is long enough to store both of the arrays
+     * @param nums1
+     * @param nums2
+     */
     public static void merge(int[] nums1, int[] nums2) {
         int j = 0;
         int[] result;

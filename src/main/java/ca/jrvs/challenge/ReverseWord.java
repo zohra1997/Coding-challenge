@@ -3,6 +3,11 @@ package ca.jrvs.challenge;
 import java.util.ArrayList;
 
 public class ReverseWord {
+    /**
+     * iterate through a sentence and return words in reverse order
+     * @param text
+     * @return reverse of the text
+     */
     public static String reverseWords(String text) {
         String[] words = text.split(" ");
         ArrayList<String> reversed = new ArrayList<>();

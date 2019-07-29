@@ -3,6 +3,11 @@ package ca.jrvs.challenge;
 import java.util.List;
 
 public class Palindrome {
+    /**
+     * check a string if it is palindrome
+     * @param text
+     * @return true if palindrome
+     */
     public static boolean isPalindrome (String text){
        int length = text.length();
        for (int i = 0;i<(length/2);i++){

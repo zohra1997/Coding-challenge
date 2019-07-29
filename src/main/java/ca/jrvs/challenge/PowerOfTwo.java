@@ -1,6 +1,11 @@
 package ca.jrvs.challenge;
 
 public class PowerOfTwo {
+    /**
+     * check if a number if a power of two
+     * @param number
+     * @return true if number is a power of 2
+     */
     public static boolean powerOfTwo(int number) {
         int square = 1;
         while (number >= square) {

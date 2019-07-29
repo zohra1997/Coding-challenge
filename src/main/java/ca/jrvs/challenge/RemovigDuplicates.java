@@ -6,11 +6,22 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class RemovigDuplicates {
+    /**
+     * Use sets to get unique elements of an array
+     * @param nums
+     * @return length of unique elements
+     */
     public static int functionApi (Integer  [] nums){
         Set<Integer> targetSet = new HashSet<Integer>(Arrays.asList(nums));
         System.out.println(targetSet);
         return targetSet.size();
     }
+
+    /**
+     * uses loops to find unique characters in an array
+     * @param nums
+     * @return count of unique elements in an array
+     */
     public static  int function (int [] nums ){
         int count = 1;
         ArrayList<Integer> uniques = new ArrayList<>();
